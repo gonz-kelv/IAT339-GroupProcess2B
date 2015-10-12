@@ -90,6 +90,18 @@ nav{
 
 }
 
+.content-home{
+	width:100%;
+}
+
+.home-layout1{
+	width:50%;
+}
+
+.home-layout2{
+	width:50%;
+}
+
 /* 
 	This is where the media quiries will happen
 */
