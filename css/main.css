@@ -1,0 +1,113 @@
+
+/*
+	With this selector, we are specifying that all objects use
+	the border-box model (not the content-box model)
+*/
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*
+	Here we are using a 'fancy' css selector that is 
+	specifying if the class of an item starts with
+	'grid-col-', then we should apply the styling listed
+*/
+[class^='grid-col-'] {
+	float: left;
+	padding: 0; 
+	text-align: center; /* center the content in this block by default */
+}
+
+/*
+	Here we are defining our default column widths with the intention
+	of keeping it 'mobile first'
+*/
+.grid-col-5of10, .grid-col-2of10 {
+	width: 100%;
+}
+
+/*
+	Here we are clearing floated items to ensure that
+	our 'grid' structure can have different rows
+*/
+.grid-row:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+body{
+	  background-color: #D9CBBF;
+	  margin:0;
+	  padding:0;
+}
+
+nav{
+	background-color:#324359;
+	line-height: 4em;
+	margin:0;
+	padding:0;
+}
+
+
+.logo-klide {
+	background-color:#324359;
+	color: #FFF;
+	width: 50%;
+	display: block;
+	float:left;
+	text-align: center;
+}
+
+.menu-klide{
+	background-color:#324359;
+	color: #FFF;
+	width: 50%;
+	display: block;
+	float: left;
+}
+
+.menu-klide ul{
+	list-style-type: none;
+	text-align: justify;
+	display:inline-block;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.menu-klide ul li{
+	text-align: justify;
+	display: inline-block;
+	margin: 0 2em 0 2em;	
+}
+.menu-klide ul li a{
+	text-align: center;
+	text-decoration: none;
+	margin: 0 auto;	
+	display: block;
+
+}
+
+/* 
+	This is where the media quiries will happen
+*/
+@media (min-width: 50em) {
+
+	.grid-col-5of10 {
+		width: 50%;
+	}
+
+}
+
+@media(max-width: 1400px){
+	.logo-klide{
+		width:33.33%;
+	}
+	
+	.menu-klide{
+		width:66.66%;
+	}
+	
+}
