@@ -109,6 +109,9 @@ nav{
 	display: block;
 }
 
+/*
+	The Home page
+*/
 
 .content-home{
 	display:block;
@@ -118,18 +121,18 @@ nav{
 }
 
 .home-layout1{
-	width:49%;
-	text-align: right;
+	width:100%;
+	text-align: left;
 	margin:0;
-	padding:0;
+	padding:0 10em 0 10em;
 	display:inline-block;
 }
 
 .home-layout2{
-	width:49%;
-	text-align: left;
+	width:100%;
+	text-align: right;
 	margin:0;
-	padding:0;
+	padding:0 10em 0 10em;
 	display:inline-block;
 }
 
@@ -161,3 +164,12 @@ nav{
 	}
 	
 }
+
+/*
+	The Shop page
+*/
+
+.content-shop{
+	width:100%;
+}
+
