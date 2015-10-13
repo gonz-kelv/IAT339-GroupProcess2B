@@ -3,6 +3,13 @@
 	With this selector, we are specifying that all objects use
 	the border-box model (not the content-box model)
 */
+@font-face{
+	font-family: "Nexa-Light";
+	src: url('font/nexa/Nexa-Light.otf')format("opentype");
+	font-family: "Nexa-Bold";
+	src: url('font/nexa/Nexa-Bold.otf')format("opentype");
+}
+
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -14,6 +21,7 @@
 	specifying if the class of an item starts with
 	'grid-col-', then we should apply the styling listed
 */
+
 [class^='grid-col-'] {
 	float: left;
 	padding: 0; 
@@ -39,6 +47,7 @@
 }
 
 body{
+	  font-family: "Nexa-Light";	
 	  background-color: #D9CBBF;
 	  margin:0;
 	  padding:0;
@@ -64,6 +73,7 @@ nav{
 .menu-klide{
 	background-color:#324359;
 	color: #FFF;
+	font-family: "Nexa-Light";
 	width: 50%;
 	display: block;
 	float: left;
