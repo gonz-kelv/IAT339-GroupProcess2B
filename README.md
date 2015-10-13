@@ -4,8 +4,7 @@ GroupProject
 This is a project about a footwear company called KLIDE
 
 Group Members:
-gonz-kelv
-dhr-arora
+gonz-kelv & dhr-arora
 
 Development Branches:
 
