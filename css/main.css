@@ -63,12 +63,20 @@ nav{
 
 .logo-klide {
 	background-color:#324359;
+	font-family: Nexa-Bold;
 	color: #FFF;
 	width: 50%;
 	display: block;
 	float:left;
 	text-align: center;
 }
+
+.logo-klide a{
+	text-decoration: none;
+	color:inherit;
+	letter-spacing: .06em;
+}
+
 
 .menu-klide{
 	background-color:#324359;
@@ -77,6 +85,7 @@ nav{
 	width: 50%;
 	display: block;
 	float: left;
+	letter-spacing: .06em;
 }
 
 .menu-klide ul{
