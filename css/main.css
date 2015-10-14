@@ -171,5 +171,94 @@ nav{
 
 .content-shop{
 	width:100%;
+	margin:0;
+	padding:0;
 }
+
+.shoeA{
+	margin:0;
+	padding:0;
+	width:100%;
+	display:inline-block;
+}
+
+.shoeA-text{
+	margin:0;
+	padding:0;
+	text-align: left;
+	width:33%;
+	display:inline-block;
+}
+
+.shoeA-imgs{
+	text-align: right;
+	margin:0;
+	padding:0;
+	width:66%;
+	display:inline-block;
+}
+
+.shoeB{
+	width:100%;
+}
+
+.shoeB-text{
+	margin:0;
+	padding:0;
+	text-align: right;
+	width:33%;
+	display:inline-block;
+}
+
+.shoeB-imgs{
+	text-align: left;
+	margin:0;
+	padding:0;
+	width:66%;
+	display:inline-block;
+}
+
+/*
+	The Collection page
+*/
+
+.content-collection{
+	width:100%;
+	display:block;
+}
+
+.collectionA-shoe{
+	width:49%;
+	display: inline-block;
+	padding:2em 10em 0 10em;
+}
+
+.collectionA-title{
+	width:49%;
+	display: inline-block;
+	padding:2em 10em 0 10em;
+}
+
+.collection-imgs{
+	width:100%;
+	display:block;
+	padding:2em 10em 0 10em;
+}
+
+.collectionB-shoe{
+	text-align: right;
+	width:48%;
+	display: inline-block;
+	padding:2em 10em 0 10em;
+}
+
+.collectionB-title{
+	text-align: right;
+	width:49%;
+	display: inline-block;
+	padding:2em 10em 0 10em;
+}
+
+
+
 
