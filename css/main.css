@@ -4,10 +4,10 @@
 	the border-box model (not the content-box model)
 */
 @font-face{
-	font-family: "Nexa-Light";
+	font-family:Nexa-Bold;
+	src: url('font/Nexa-Bold.otf')format("opentype");
+	font-family: Nexa-Light;
 	src: url('font/nexa/Nexa-Light.otf')format("opentype");
-	font-family: "Nexa-Bold";
-	src: url('font/nexa/Nexa-Bold.otf')format("opentype");
 }
 
 *, *:after, *:before {
@@ -73,7 +73,7 @@ nav{
 .menu-klide{
 	background-color:#324359;
 	color: #FFF;
-	font-family: "Nexa-Light";
+	font-family: Nexa;
 	width: 50%;
 	display: block;
 	float: left;
@@ -101,7 +101,14 @@ nav{
 }
 
 .content-home{
+	position:absolute; 
+	top:200px; 
+	left:200px;
+	img-align:center;
+	font-family:Nexa-Light;
 	width:100%;
+	img-padding:200;
+	
 }
 
 .home-layout1{
