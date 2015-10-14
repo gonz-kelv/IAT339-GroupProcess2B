@@ -4,10 +4,10 @@
 	the border-box model (not the content-box model)
 */
 @font-face{
-	font-family: "Nexa-Light";
-	src: url('font/nexa/Nexa-Light.otf')format("opentype");
-	font-family: "Nexa-Bold";
-	src: url('font/nexa/Nexa-Bold.otf')format("opentype");
+	font-family: Nexa-Light;
+	src: url("font/nexa/Nexa-Light.otf")format("opentype");
+	font-family: Nexa-Bold;
+	src: url("font/nexa/Nexa-Bold.otf")format("opentype");
 }
 
 *, *:after, *:before {
@@ -47,7 +47,7 @@
 }
 
 body{
-	  font-family: "Nexa-Light";	
+	  font-family:Nexa;	
 	  background-color: #D9CBBF;
 	  margin:0;
 	  padding:0;
@@ -63,6 +63,7 @@ nav{
 
 .logo-klide {
 	background-color:#324359;
+	font-family: Nexa-Bold;
 	color: #FFF;
 	width: 50%;
 	display: block;
@@ -70,13 +71,21 @@ nav{
 	text-align: center;
 }
 
+.logo-klide a{
+	text-decoration: none;
+	color:inherit;
+	letter-spacing: .06em;
+}
+
+
 .menu-klide{
 	background-color:#324359;
 	color: #FFF;
-	font-family: "Nexa-Light";
+	font-family: Nexa-Bold;
 	width: 50%;
 	display: block;
 	float: left;
+	letter-spacing: .06em;
 }
 
 .menu-klide ul{
@@ -90,14 +99,48 @@ nav{
 .menu-klide ul li{
 	text-align: justify;
 	display: inline-block;
-	margin: 0 2em 0 2em;	
+	margin: 0 2em 0 2em;
 }
 .menu-klide ul li a{
 	text-align: center;
 	text-decoration: none;
+	color:inherit;
 	margin: 0 auto;	
 	display: block;
+}
 
+/*
+	The Home page
+*/
+
+.content-home{
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+.home-layout1{
+	width:100%;
+	text-align: left;
+	margin:0;
+	padding:0 10em 0 10em;
+	display:inline-block;
+}
+
+.home-layout2{
+	width:100%;
+	text-align: right;
+	margin:0;
+	padding:0 10em 0 10em;
+	display:inline-block;
+}
+
+.espace{
+	position:relative;
+	width:49%;
+	display:inline-block;
+	line-height: 100px;
 }
 
 /* 
@@ -121,3 +164,101 @@ nav{
 	}
 	
 }
+
+/*
+	The Shop page
+*/
+
+.content-shop{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+.shoeA{
+	margin:0;
+	padding:0;
+	width:100%;
+	display:inline-block;
+}
+
+.shoeA-text{
+	margin:0;
+	padding:0;
+	text-align: left;
+	width:33%;
+	display:inline-block;
+}
+
+.shoeA-imgs{
+	text-align: right;
+	margin:0;
+	padding:0;
+	width:66%;
+	display:inline-block;
+}
+
+.shoeB{
+	width:100%;
+}
+
+.shoeB-text{
+	margin:0;
+	padding:0;
+	text-align: right;
+	width:33%;
+	display:inline-block;
+}
+
+.shoeB-imgs{
+	text-align: left;
+	margin:0;
+	padding:0;
+	width:66%;
+	display:inline-block;
+}
+
+/*
+	The Collection page
+*/
+
+.content-collection{
+	width:100%;
+	display:block;
+}
+
+.collectionA-shoe{
+	width:49%;
+	display: inline-block;
+	padding:2em 10em 0 10em;
+}
+
+.collectionA-title{
+	width:49%;
+	display: inline-block;
+	padding:2em 10em 0 10em;
+}
+
+.collection-imgs{
+	width:100%;
+	display:block;
+	padding:2em 10em 0 10em;
+}
+
+.collectionB-shoe{
+	text-align: right;
+	width:48%;
+	display: inline-block;
+	padding:2em 10em 0 10em;
+}
+
+.collectionB-title{
+	text-align: right;
+	width:49%;
+	display: inline-block;
+	padding:2em 10em 0 10em;
+}
+
+
+
+
