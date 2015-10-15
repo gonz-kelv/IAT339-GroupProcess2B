@@ -1,0 +1,372 @@
+
+/*
+	With this selector, we are specifying that all objects use
+	the border-box model (not the content-box model)
+*/
+@font-face{
+	font-family: Nexa-Light;
+	src: url("font/nexa/Nexa-Light.otf")format("opentype");
+	font-family: Nexa-Bold;
+	src: url("font/nexa/Nexa-Bold.otf")format("opentype");
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*
+	Here we are using a 'fancy' css selector that is 
+	specifying if the class of an item starts with
+	'grid-col-', then we should apply the styling listed
+*/
+
+[class^='grid-col-'] {
+	float: left;
+	padding: 0; 
+	text-align: center; /* center the content in this block by default */
+}
+
+/*
+	Here we are defining our default column widths with the intention
+	of keeping it 'mobile first'
+*/
+.grid-col-5of10, .grid-col-2of10 {
+	width: 100%;
+}
+
+/*
+	Here we are clearing floated items to ensure that
+	our 'grid' structure can have different rows
+*/
+.grid-row:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+body{
+	  font-family:Nexa;	
+	  background-color: #D9CBBF;
+	  margin:0;
+	  padding:0;
+}
+
+nav{
+	background-color:#324359;
+	line-height: 4em;
+	margin:0;
+	padding:0;
+}
+
+
+.logo-klide {
+	background-color:#324359;
+	font-family: Nexa-Bold;
+	color: #FFF;
+	width: 50%;
+	display: block;
+	float:left;
+	text-align: center;
+}
+
+.logo-klide a{
+	text-decoration: none;
+	color:inherit;
+	letter-spacing: .06em;
+}
+
+
+.menu-klide{
+	background-color:#324359;
+	color: #FFF;
+	font-family: Nexa-Bold;
+	width: 50%;
+	display: block;
+	float: left;
+	letter-spacing: .06em;
+}
+
+.menu-klide ul{
+	list-style-type: none;
+	text-align: justify;
+	display:inline-block;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.menu-klide ul li{
+	text-align: justify;
+	display: inline-block;
+	margin: 0 2em 0 2em;
+}
+.menu-klide ul li a{
+	text-align: center;
+	text-decoration: none;
+	color:inherit;
+	margin: 0 auto;	
+	display: block;
+}
+
+/*
+	The Home page
+*/
+
+.content-home{
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+.home-layout1{
+	width:100%;
+	text-align: left;
+	margin:0;
+	padding:0 10em 0 10em;
+	display:inline-block;
+}
+
+.home-layout2{
+	width:100%;
+	text-align: right;
+	margin:0;
+	padding:0 10em 0 10em;
+	display:inline-block;
+}
+
+.espace{
+	position:relative;
+	width:49%;
+	display:inline-block;
+	line-height: 100px;
+}
+
+/* 
+	This is where the media quiries will happen
+*/
+@media (min-width: 50em) {
+
+	.grid-col-5of10 {
+		width: 50%;
+	}
+
+}
+
+@media(max-width: 1400px){
+	.logo-klide{
+		width:33.33%;
+	}
+	
+	.menu-klide{
+		width:66.66%;
+	}
+	
+}
+
+/*
+	The Shop page
+*/
+
+.content-shop{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+.shoeA{
+	margin:0;
+	padding:0;
+	width:100%;
+	display:inline-block;
+}
+
+.shoeA-text{
+	margin:0;
+	padding:0;
+	text-align: left;
+	width:33%;
+	display:inline-block;
+}
+
+.shoeA-imgs{
+	text-align: right;
+	margin:0;
+	padding:0;
+	width:66%;
+	display:inline-block;
+}
+
+.shoeB{
+	width:100%;
+}
+
+.shoeB-text{
+	margin:0;
+	padding:0;
+	text-align: right;
+	width:33%;
+	display:inline-block;
+}
+
+.shoeB-imgs{
+	text-align: left;
+	margin:0;
+	padding:0;
+	width:66%;
+	display:inline-block;
+}
+
+/*
+	The Collection page
+*/
+
+.content-collection{
+	width:100%;
+	display:block;
+}
+
+.collectionA-shoe{
+	width:49%;
+	display: inline-block;
+	padding:2em 10em 0 10em;
+}
+
+.collectionA-title{
+	vertical-align: middle;
+	line-height: 400px;
+	width:49%;
+	display: inline-block;
+	padding:2em 10em 0 10em;
+}
+
+.collection-imgs{
+	width:100%;
+	display:block;
+	padding:2em 10em 0 10em;
+}
+
+.collectionB-shoe{
+	text-align: right;
+	width:48%;
+	display: inline-block;
+	padding:2em 10em 0 10em;
+}
+
+.collectionB-title{
+	text-align: right;
+	width:49%;
+	display: inline-block;
+	padding:2em 10em 0 10em;
+}
+/*
+	The About page
+*/
+.content-about{
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.about-text{
+	margin:0;
+	padding:0;
+	width:39%;
+	display:inline-block;
+}
+.about-title{
+	margin:0;
+	padding:0;
+	text-align:center;
+	width:100%;
+	display:inline-block;
+}
+.about-body{
+	margin:0;
+	padding:0;
+	text-align:justify;
+	width:100%;
+	display:inline-block;
+}
+.about-imgsection{
+	margin:0;
+	padding:0;
+	width:60%;
+	display:inline-block;
+}
+.about-img{
+	/*needs float for image resize*/
+	margin:0;
+	padding:0;
+	width:100%;
+	height:75%;
+	text-align:right;
+	text-align:top;
+	display:inline-block;
+}
+.about-about{
+	/*needs float for about resize*/
+	margin:0;
+	padding:0;
+	width:100%;
+	height:24%;
+	text-align:center;
+	text-align:top;
+	display:inline-block;
+}
+/*
+	The Contact page
+*/
+.content-contact{
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.contact-faq{
+	margin:0;
+	padding:0;
+	width:49%;
+	text-align:top;
+	display:inline-block;
+}
+.faq-title{
+	margin:0;
+	padding:0;
+	text-align:left;
+	width:100%;
+	display:inline-block;
+}
+.faq-questions{
+	margin:0;
+	padding:0;
+	text-align:left;
+	width:100%;
+	display:inline-block;
+}
+.contact-right{
+	margin:0;
+	padding:0;
+	width:50%;
+	display:inline-block;
+}
+.right-top{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:24%;
+	text-align:left;
+	display:inline-block;
+}
+.right-bottom{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:75%;
+	text-align:left;
+	display:inline-block;
+}
+
+
+
