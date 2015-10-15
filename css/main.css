@@ -45,7 +45,9 @@
 	display: block;
 	clear: both;
 }
-
+/*
+	#D9CBBF
+*/
 body{
 	  font-family:Nexa;	
 	  background-color: #D9CBBF;
@@ -54,7 +56,6 @@ body{
 }
 
 nav{
-	background-color:#324359;
 	line-height: 4em;
 	margin:0;
 	padding:0;
@@ -85,7 +86,7 @@ nav{
 	width: 50%;
 	display: block;
 	float: left;
-	letter-spacing: .06em;
+	letter-spacing: .08em;
 }
 
 .menu-klide ul{
@@ -124,7 +125,7 @@ nav{
 	width:100%;
 	text-align: left;
 	margin:0;
-	padding:0 10em 0 10em;
+	padding:2em 10em 0 10em;
 	display:inline-block;
 }
 
@@ -132,7 +133,7 @@ nav{
 	width:100%;
 	text-align: right;
 	margin:0;
-	padding:0 10em 0 10em;
+	padding:2em 10em 0 10em;
 	display:inline-block;
 }
 
@@ -171,23 +172,25 @@ nav{
 
 .content-shop{
 	width:100%;
+	display:block;
 	margin:0;
 	padding:0;
 }
 
 .shoeA{
 	margin:0;
-	padding:0;
+	padding-top: 2em;
 	width:100%;
 	display:inline-block;
 }
 
 .shoeA-text{
-	margin:0;
-	padding:0;
 	text-align: left;
 	width:33%;
-	display:inline-block;
+	float:left;
+	text-align:center;
+	line-height:300px; /* should be the same height resolution of the image */
+	display:table-cell;
 }
 
 .shoeA-imgs{
@@ -203,11 +206,12 @@ nav{
 }
 
 .shoeB-text{
-	margin:0;
-	padding:0;
 	text-align: right;
 	width:33%;
-	display:inline-block;
+	float:right;
+	text-align:center;
+	line-height:300px; /* should be the same height resolution of the image */
+	display:table-cell;
 }
 
 .shoeB-imgs{
@@ -225,6 +229,8 @@ nav{
 .content-collection{
 	width:100%;
 	display:block;
+	margin:0;
+	padding:0;
 }
 
 .collectionA-shoe{
@@ -235,8 +241,9 @@ nav{
 
 .collectionA-title{
 	width:49%;
-	display: inline-block;
-	padding:2em 10em 0 10em;
+	float:right;
+	display: table-cell; /* This centers it vertically */
+	line-height: 400px;
 }
 
 .collection-imgs{
@@ -255,10 +262,205 @@ nav{
 .collectionB-title{
 	text-align: right;
 	width:49%;
+	float:left;
+	display: table-cell; /* This centers it vertically */
+	line-height: 400px;
+}
+
+/*
+	The Cart page
+*/
+
+.content-cart{
+	width:100%;
+	padding:0;
+	margin:0;
+}
+
+.cart-heading{
+	width:100%;
 	display: inline-block;
-	padding:2em 10em 0 10em;
+	padding-top: 2em;
+	padding-left:20em;
+}
+
+.cart-img{
+	width:33.33%;
+	display: inline-block;
+	padding-top: 2em;
+	text-align: center;	
+}
+
+.cart-container{
+	width:66%;
+	float:right;
+	line-height: 300px;
+	display: table-cell;
+}
+
+.cart-size{
+	width:20%;
+	display:inline-block;
+	line-height: 300px;
+	text-align: justify;
+	vertical-align: middle;
+}
+
+.cart-size h3{
+	line-height: 100px;
+}
+
+.cart-amount{
+	width:20%;
+	display:inline-block;
+	line-height: 300px;
+	text-align: justify;
+	vertical-align: middle;
+}
+
+.cart-amount h3{
+	line-height: 100px;
+}
+
+.cart-price{
+	width:20%;
+	display:inline-block;
+	line-height: 300px;
+	text-align: justify;
+	vertical-align: middle;
+}
+
+.cart-price h3{
+	line-height: 100px;
+	margin:0;
+}
+
+.cart-price p{
+	vertical-align: middle;
+	line-height: 50px;
+	margin:0;
+	padding:0;
+	font-size: 1.5em;
+}
+
+select{
+	padding:1em;
+	background-color: #746A5F;
+	color:#FFF;
+}
+
+select option{
+	padding:1em;
+	
+}
+
+/*
+	The About page
+*/
+.content-about{
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.about-text{
+	margin:0;
+	padding:1em;
+	width:39%;
+	display:inline-block;
+}
+.about-title{
+	margin:0;
+	padding:0;
+	text-align:center;
+	width:100%;
+	display:inline-block;
+}
+.about-body{
+	margin:0;
+	padding:0;
+	text-align:justify;
+	width:100%;
+	display:inline-block;
+}
+.about-imgsection{
+	margin:0;
+	padding:0;
+	width:59%;
+	display:inline-block;
+}
+.about-imgsection img{
+	/*needs float for image resize*/
+	margin:0;
+	padding:0;
+	width:100%;
+	text-align:right;
+	text-align:top;
+	display:inline-block;
+}
+
+.about-imgsection h1{
+	/*needs float for about resize*/
+	margin:0;
+	padding:0;
+	width:100%;
+	font-size:10em;
+	text-align:center;
+	letter-spacing: .9em;
+	text-align:top;
+	display:inline-block;
+}
+/*
+	The Contact page
+*/
+.content-contact{
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.contact-faq{
+	margin:0;
+	padding-left:2em;
+	width:49%;
+	float:left;
+	display:block;
+}
+.faq-title{
+	margin:0;
+	padding:0;
+	text-align:left;
+	width:50%;
+	display:inline-block;
+}
+.faq-questions{
+	margin:0;
+	padding:0;
+	text-align:left;
+	width:50%;
+	display:inline-block;
 }
 
 
-
+.contact-right{
+	margin:0;
+	padding:0;
+	width:50%;
+	float:left;
+	display:block;
+}
+.right-top{
+	margin:0;
+	padding:0;
+	width:50%;
+	text-align:left;
+	display:inline-block;
+}
+.right-bottom{
+	margin:0;
+	padding:0;
+	width:50%;
+	text-align:left;
+	display:inline-block;
+}
 
