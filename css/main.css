@@ -50,7 +50,8 @@
 */
 body{
 	  font-family:Nexa;	
-	  background-color: #D9CBBF;
+	  /* old  background-color: #D9CBBF; */
+	  background-color: #FFF;
 	  margin:0;
 	  padding:0;
 }
@@ -65,6 +66,7 @@ nav{
 .logo-klide {
 	background-color:#324359;
 	font-family: Nexa-Bold;
+	font-size:3rem;
 	color: #FFF;
 	width: 50%;
 	display: block;
@@ -121,8 +123,19 @@ nav{
 	padding:0;
 }
 
-.home-layout1{
+.home-img{
 	width:100%;
+	margin:0;
+	padding:0;
+	display:inline-block;
+}
+
+.home-img img{
+	width:100%;
+}
+
+.home-layout1{
+	width:49%;
 	text-align: left;
 	margin:0;
 	padding:2em 10em 0 10em;
@@ -130,7 +143,7 @@ nav{
 }
 
 .home-layout2{
-	width:100%;
+	width:49%;
 	text-align: right;
 	margin:0;
 	padding:2em 10em 0 10em;
@@ -162,6 +175,13 @@ nav{
 	
 	.menu-klide{
 		width:66.66%;
+	}
+	
+	.home-layout1{
+		width:100%;
+	}
+	.home-layout2{
+		width:100%;
 	}
 	
 }
@@ -464,3 +484,64 @@ select option{
 	display:inline-block;
 }
 
+
+/*
+	The Detail Page
+*/
+
+.content-detail{
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+.detail-name{
+	width:33%;
+	float:left;
+	display:block;
+	padding:0;
+	text-align:center;
+}
+
+.detail-name h1{
+	float:left;
+	display:block;
+	padding:25%;
+}
+
+.detail-img{
+	width:33%;
+	float:left;
+	display:block;
+	padding:0;
+}
+
+.detail-img-bottom img{
+	float:left;
+	height:auto;
+	width:auto;
+	max-width:100px;
+	max-height:100px;
+}
+
+.detail-info{
+	width:33%;
+	float:left;
+	display:block;
+	padding-top:5%;
+}
+
+.detail-sizebox{
+  display: inline-block;
+  padding: .75em;
+  color: #FFF;
+  background-color: #324359;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.detail-sizebox:hover, .detail-sizebox:focus {
+  background-color: #746A5F;
+}
