@@ -50,12 +50,8 @@
 */
 body{
 	  font-family:Nexa;	
-<<<<<<< HEAD
 	  /*background-color: #D9CBBF;*/
 	  background-color: #FFFFFF;
-=======
-	  background-color: #D9CBBF;
->>>>>>> origin/d_dev
 	  margin:0;
 	  padding:0;
 }
@@ -91,11 +87,7 @@ nav{
 	width: 50%;
 	display: block;
 	float: left;
-<<<<<<< HEAD
 	letter-spacing: .08em;
-=======
-	letter-spacing: .06em;
->>>>>>> origin/d_dev
 }
 
 .menu-klide ul{
@@ -129,10 +121,20 @@ nav{
 	margin:0;
 	padding:0;
 }
-<<<<<<< HEAD
+
+.home-img{
+	width:100%;
+	margin:0;
+	padding:0;
+	display:inline-block;
+}
+
+.home-img img{
+	width:100%;
+}
 
 .home-layout1{
-	width:100%;
+	width:49%;
 	text-align: left;
 	margin:0;
 	padding:2em 10em 0 10em;
@@ -140,32 +142,13 @@ nav{
 }
 
 .home-layout2{
-	width:100%;
+	width:49%;
 	text-align: right;
 	margin:0;
 	padding:2em 10em 0 10em;
 	display:inline-block;
 }
 
-=======
-
-.home-layout1{
-	width:100%;
-	text-align: left;
-	margin:0;
-	padding:0 10em 0 10em;
-	display:inline-block;
-}
-
-.home-layout2{
-	width:100%;
-	text-align: right;
-	margin:0;
-	padding:0 10em 0 10em;
-	display:inline-block;
-}
-
->>>>>>> origin/d_dev
 .espace{
 	position:relative;
 	width:49%;
@@ -193,6 +176,13 @@ nav{
 		width:66.66%;
 	}
 	
+	.home-layout1{
+		width:100%;
+	}
+	.home-layout2{
+		width:100%;
+	}
+	
 }
 
 /*
@@ -201,40 +191,25 @@ nav{
 
 .content-shop{
 	width:100%;
-<<<<<<< HEAD
 	display:block;
-=======
->>>>>>> origin/d_dev
 	margin:0;
 	padding:0;
 }
 
 .shoeA{
 	margin:0;
-<<<<<<< HEAD
 	padding-top: 2em;
-=======
-	padding:0;
->>>>>>> origin/d_dev
 	width:100%;
 	display:inline-block;
 }
 
 .shoeA-text{
-<<<<<<< HEAD
 	text-align: left;
 	width:33%;
 	float:left;
 	text-align:center;
 	line-height:300px; /* should be the same height resolution of the image */
 	display:table-cell;
-=======
-	margin:0;
-	padding:0;
-	text-align: left;
-	width:33%;
-	display:inline-block;
->>>>>>> origin/d_dev
 }
 
 .shoeA-imgs{
@@ -245,25 +220,21 @@ nav{
 	display:inline-block;
 }
 
+.shoeA-imgs a{
+	text-decoration:none;
+}
+
 .shoeB{
 	width:100%;
 }
 
 .shoeB-text{
-<<<<<<< HEAD
 	text-align: right;
 	width:33%;
 	float:right;
 	text-align:center;
 	line-height:300px; /* should be the same height resolution of the image */
 	display:table-cell;
-=======
-	margin:0;
-	padding:0;
-	text-align: right;
-	width:33%;
-	display:inline-block;
->>>>>>> origin/d_dev
 }
 
 .shoeB-imgs{
@@ -274,6 +245,10 @@ nav{
 	display:inline-block;
 }
 
+.shoeB-imgs a{
+	text-decoration:none;
+}
+
 /*
 	The Collection page
 */
@@ -281,11 +256,8 @@ nav{
 .content-collection{
 	width:100%;
 	display:block;
-<<<<<<< HEAD
 	margin:0;
 	padding:0;
-=======
->>>>>>> origin/d_dev
 }
 
 .collectionA-shoe{
@@ -296,14 +268,9 @@ nav{
 
 .collectionA-title{
 	width:49%;
-<<<<<<< HEAD
 	float:right;
 	display: table-cell; /* This centers it vertically */
 	line-height: 400px;
-=======
-	display: inline-block;
-	padding:2em 10em 0 10em;
->>>>>>> origin/d_dev
 }
 
 .collection-imgs{
@@ -322,7 +289,6 @@ nav{
 .collectionB-title{
 	text-align: right;
 	width:49%;
-<<<<<<< HEAD
 	float:left;
 	display: table-cell; /* This centers it vertically */
 	line-height: 400px;
@@ -330,13 +296,10 @@ nav{
 
 .collectionC-shoe{
 	width:49%;
-=======
->>>>>>> origin/d_dev
 	display: inline-block;
 	padding:2em 10em 0 10em;
 }
 
-<<<<<<< HEAD
 .collectionC-title{
 	width:49%;
 	float:right;
@@ -444,27 +407,31 @@ select option{
 	margin:0;
 	padding:1em;
 	width:39%;
-	display:inline-block;
+	display:block;
+	float:left;
 }
 .about-title{
 	margin:0;
 	padding:0;
 	text-align:center;
 	width:100%;
-	display:inline-block;
+	display:block;
+	float:left;
 }
 .about-body{
 	margin:0;
 	padding:0;
 	text-align:justify;
 	width:100%;
-	display:inline-block;
+	display:block;
+	float:left;
 }
 .about-imgsection{
 	margin:0;
 	padding:0;
 	width:59%;
-	display:inline-block;
+	display:block;
+	float:left;
 }
 .about-imgsection img{
 	/*needs float for image resize*/
@@ -473,7 +440,8 @@ select option{
 	width:100%;
 	text-align:right;
 	text-align:top;
-	display:inline-block;
+	display:block;
+	float:left;
 }
 
 .about-imgsection h1{
@@ -485,7 +453,8 @@ select option{
 	text-align:center;
 	letter-spacing: .9em;
 	text-align:top;
-	display:inline-block;
+	display:block;
+	float:left;
 }
 /*
 	The Contact page
@@ -514,7 +483,7 @@ select option{
 	margin:0;
 	padding:0;
 	text-align:left;
-	width:50%;
+	width:80%;
 	display:inline-block;
 }
 
@@ -540,8 +509,129 @@ select option{
 	text-align:left;
 	display:inline-block;
 }
-=======
+
+.input-text{
+	font-family: "Nexa Light";
+	color: #FFF;
+	background-color:#746A5F;
+	border: 1px solid #746A5F; 
+	padding: .5em;
+	-webkit-appearance: none;
+	box-shadow: none;
+	border-radius: none;
+}
+
+.input-textarea{
+	display: block;
+	font-family: "Nexa Light";
+  	color: #FFF;
+	background-color:#746A5F;
+	border: 1px solid #746A5F; 
+	padding: .5em;
+	-webkit-appearance: none;
+	box-shadow: none;
+	border-radius: none;
+}
+
+.button-submit{
+	float:left;
+	display: block;
+	padding: .75em;
+	margin-top:5%;
+	color: #FFF;
+	background-color: #324359;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+
+.button-submit:hover, .button-submit:focus{
+  background-color: #746A5F;
+}
 
 
->>>>>>> origin/d_dev
+/*
+	The Detail Page
+*/
 
+.content-detail{
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+.detail-name{
+	width:33%;
+	float:left;
+	display:block;
+	padding:0;
+	text-align:center;
+}
+
+.detail-name h1{
+	float:left;
+	display:block;
+	padding:25%;
+}
+
+.detail-img{
+	width:33%;
+	float:left;
+	display:block;
+	padding:0;
+}
+
+.detail-img-bottom img{
+	float:left;
+	height:auto;
+	width:auto;
+	max-width:100px;
+	max-height:100px;
+}
+
+.detail-info{
+	width:33%;
+	float:left;
+	display:block;
+	padding-top:5%;
+}
+
+.detail-sizebox{
+  display: inline-block;
+  padding: .75em;
+  color: #FFF;
+  background-color: #324359;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.detail-sizebox:hover, .detail-sizebox:focus {
+  background-color: #746A5F;
+}
+
+/*
+	Thank you page
+*/
+
+.thanks{
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+.button-add {
+  display: inline-block;
+  padding: .75em;
+  color: #FFF;
+  background-color: #324359;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-add:hover, .button-add:focus {
+  background-color: #746A5F;
+}
