@@ -4,10 +4,10 @@
 	the border-box model (not the content-box model)
 */
 @font-face{
-	font-family: "Nexa-Light";
-	src: url('font/nexa/Nexa-Light.otf')format("opentype");
-	font-family: "Nexa-Bold";
-	src: url('font/nexa/Nexa-Bold.otf')format("opentype");
+	font-family: Nexa-Light;
+	src: url("font/nexa/Nexa-Light.otf")format("opentype");
+	font-family: Nexa-Bold;
+	src: url("font/nexa/Nexa-Bold.otf")format("opentype");
 }
 
 *, *:after, *:before {
@@ -45,16 +45,18 @@
 	display: block;
 	clear: both;
 }
-
+/*
+	#D9CBBF
+*/
 body{
-	  font-family: "Nexa-Light";	
-	  background-color: #D9CBBF;
+	  font-family:Nexa;	
+	  /*background-color: #D9CBBF;*/
+	  background-color: #FFFFFF;
 	  margin:0;
 	  padding:0;
 }
 
 nav{
-	background-color:#324359;
 	line-height: 4em;
 	margin:0;
 	padding:0;
@@ -63,6 +65,7 @@ nav{
 
 .logo-klide {
 	background-color:#324359;
+	font-family: Nexa-Bold;
 	color: #FFF;
 	width: 50%;
 	display: block;
@@ -70,13 +73,21 @@ nav{
 	text-align: center;
 }
 
+.logo-klide a{
+	text-decoration: none;
+	color:inherit;
+	letter-spacing: .06em;
+}
+
+
 .menu-klide{
 	background-color:#324359;
 	color: #FFF;
-	font-family: "Nexa-Light";
+	font-family: Nexa-Bold;
 	width: 50%;
 	display: block;
 	float: left;
+	letter-spacing: .08em;
 }
 
 .menu-klide ul{
@@ -90,14 +101,48 @@ nav{
 .menu-klide ul li{
 	text-align: justify;
 	display: inline-block;
-	margin: 0 2em 0 2em;	
+	margin: 0 2em 0 2em;
 }
 .menu-klide ul li a{
 	text-align: center;
 	text-decoration: none;
+	color:inherit;
 	margin: 0 auto;	
 	display: block;
+}
 
+/*
+	The Home page
+*/
+
+.content-home{
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+.home-layout1{
+	width:100%;
+	text-align: left;
+	margin:0;
+	padding:2em 10em 0 10em;
+	display:inline-block;
+}
+
+.home-layout2{
+	width:100%;
+	text-align: right;
+	margin:0;
+	padding:2em 10em 0 10em;
+	display:inline-block;
+}
+
+.espace{
+	position:relative;
+	width:49%;
+	display:inline-block;
+	line-height: 100px;
 }
 
 /* 
@@ -121,10 +166,315 @@ nav{
 	}
 	
 }
-.content-about{
+
+/*
+	The Shop page
+*/
+
+.content-shop{
+	width:100%;
+	display:block;
+	margin:0;
+	padding:0;
+}
+
+.shoeA{
+	margin:0;
+	padding-top: 2em;
+	width:100%;
+	display:inline-block;
+}
+
+.shoeA-text{
+	text-align: left;
+	width:33%;
+	float:left;
+	text-align:center;
+	line-height:300px; /* should be the same height resolution of the image */
+	display:table-cell;
+}
+
+.shoeA-imgs{
+	text-align: right;
+	margin:0;
+	padding:0;
+	width:66%;
+	display:inline-block;
+}
+
+.shoeB{
+	width:100%;
+}
+
+.shoeB-text{
+	text-align: right;
+	width:33%;
+	float:right;
+	text-align:center;
+	line-height:300px; /* should be the same height resolution of the image */
+	display:table-cell;
+}
+
+.shoeB-imgs{
+	text-align: left;
+	margin:0;
+	padding:0;
+	width:66%;
+	display:inline-block;
+}
+
+/*
+	The Collection page
+*/
+
+.content-collection{
+	width:100%;
+	display:block;
+	margin:0;
+	padding:0;
+}
+
+.collectionA-shoe{
+	width:49%;
+	display: inline-block;
+	padding:2em 10em 0 10em;
+}
+
+.collectionA-title{
+	width:49%;
+	float:right;
+	display: table-cell; /* This centers it vertically */
+	line-height: 400px;
+}
+
+.collection-imgs{
+	width:100%;
+	display:block;
+	padding:2em 10em 0 10em;
+}
+
+.collectionB-shoe{
+	text-align: right;
+	width:48%;
+	display: inline-block;
+	padding:2em 10em 0 10em;
+}
+
+.collectionB-title{
+	text-align: right;
+	width:49%;
+	float:left;
+	display: table-cell; /* This centers it vertically */
+	line-height: 400px;
+}
+
+.collectionC-shoe{
+	width:49%;
+	display: inline-block;
+	padding:2em 10em 0 10em;
+}
+
+.collectionC-title{
+	width:49%;
+	float:right;
+	display: table-cell; /* This centers it vertically */
+	line-height: 400px;
+}
+
+/*
+	The Cart page
+*/
+
+.content-cart{
+	width:100%;
+	padding:0;
+	margin:0;
+}
+
+.cart-heading{
+	width:100%;
+	display: inline-block;
+	padding-top: 2em;
+	padding-left:20em;
+}
+
+.cart-img{
+	width:33.33%;
+	display: inline-block;
+	padding-top: 2em;
+	text-align: center;	
+}
+
+.cart-container{
+	width:66%;
+	float:right;
+	line-height: 300px;
+	display: table-cell;
+}
+
+.cart-size{
+	width:20%;
+	display:inline-block;
+	line-height: 300px;
 	text-align: justify;
-	padding: 100;
-	height: 100%;
-	width: 40%;
+	vertical-align: middle;
+}
+
+.cart-size h3{
+	line-height: 100px;
+}
+
+.cart-amount{
+	width:20%;
+	display:inline-block;
+	line-height: 300px;
+	text-align: justify;
+	vertical-align: middle;
+}
+
+.cart-amount h3{
+	line-height: 100px;
+}
+
+.cart-price{
+	width:20%;
+	display:inline-block;
+	line-height: 300px;
+	text-align: justify;
+	vertical-align: middle;
+}
+
+.cart-price h3{
+	line-height: 100px;
+	margin:0;
+}
+
+.cart-price p{
+	vertical-align: middle;
+	line-height: 50px;
+	margin:0;
+	padding:0;
+	font-size: 1.5em;
+}
+
+select{
+	padding:1em;
+	background-color: #746A5F;
+	color:#FFF;
+}
+
+select option{
+	padding:1em;
 	
 }
+
+/*
+	The About page
+*/
+.content-about{
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.about-text{
+	margin:0;
+	padding:1em;
+	width:39%;
+	display:inline-block;
+}
+.about-title{
+	margin:0;
+	padding:0;
+	text-align:center;
+	width:100%;
+	display:inline-block;
+}
+.about-body{
+	margin:0;
+	padding:0;
+	text-align:justify;
+	width:100%;
+	display:inline-block;
+}
+.about-imgsection{
+	margin:0;
+	padding:0;
+	width:59%;
+	display:inline-block;
+}
+.about-imgsection img{
+	/*needs float for image resize*/
+	margin:0;
+	padding:0;
+	width:100%;
+	text-align:right;
+	text-align:top;
+	display:inline-block;
+}
+
+.about-imgsection h1{
+	/*needs float for about resize*/
+	margin:0;
+	padding:0;
+	width:100%;
+	font-size:10em;
+	text-align:center;
+	letter-spacing: .9em;
+	text-align:top;
+	display:inline-block;
+}
+/*
+	The Contact page
+*/
+.content-contact{
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.contact-faq{
+	margin:0;
+	padding-left:2em;
+	width:49%;
+	float:left;
+	display:block;
+}
+.faq-title{
+	margin:0;
+	padding:0;
+	text-align:left;
+	width:50%;
+	display:inline-block;
+}
+.faq-questions{
+	margin:0;
+	padding:0;
+	text-align:left;
+	width:50%;
+	display:inline-block;
+}
+
+
+.contact-right{
+	margin:0;
+	padding:0;
+	width:50%;
+	float:left;
+	display:block;
+}
+.right-top{
+	margin:0;
+	padding:0;
+	width:50%;
+	text-align:left;
+	display:inline-block;
+}
+.right-bottom{
+	margin:0;
+	padding:0;
+	width:50%;
+	text-align:left;
+	display:inline-block;
+}
+
