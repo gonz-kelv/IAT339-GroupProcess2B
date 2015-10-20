@@ -50,8 +50,12 @@
 */
 body{
 	  font-family:Nexa;	
+<<<<<<< HEAD
 	  /*background-color: #D9CBBF;*/
 	  background-color: #FFFFFF;
+=======
+	  background-color: #D9CBBF;
+>>>>>>> origin/d_dev
 	  margin:0;
 	  padding:0;
 }
@@ -87,7 +91,11 @@ nav{
 	width: 50%;
 	display: block;
 	float: left;
+<<<<<<< HEAD
 	letter-spacing: .08em;
+=======
+	letter-spacing: .06em;
+>>>>>>> origin/d_dev
 }
 
 .menu-klide ul{
@@ -121,6 +129,7 @@ nav{
 	margin:0;
 	padding:0;
 }
+<<<<<<< HEAD
 
 .home-layout1{
 	width:100%;
@@ -138,6 +147,25 @@ nav{
 	display:inline-block;
 }
 
+=======
+
+.home-layout1{
+	width:100%;
+	text-align: left;
+	margin:0;
+	padding:0 10em 0 10em;
+	display:inline-block;
+}
+
+.home-layout2{
+	width:100%;
+	text-align: right;
+	margin:0;
+	padding:0 10em 0 10em;
+	display:inline-block;
+}
+
+>>>>>>> origin/d_dev
 .espace{
 	position:relative;
 	width:49%;
@@ -173,25 +201,40 @@ nav{
 
 .content-shop{
 	width:100%;
+<<<<<<< HEAD
 	display:block;
+=======
+>>>>>>> origin/d_dev
 	margin:0;
 	padding:0;
 }
 
 .shoeA{
 	margin:0;
+<<<<<<< HEAD
 	padding-top: 2em;
+=======
+	padding:0;
+>>>>>>> origin/d_dev
 	width:100%;
 	display:inline-block;
 }
 
 .shoeA-text{
+<<<<<<< HEAD
 	text-align: left;
 	width:33%;
 	float:left;
 	text-align:center;
 	line-height:300px; /* should be the same height resolution of the image */
 	display:table-cell;
+=======
+	margin:0;
+	padding:0;
+	text-align: left;
+	width:33%;
+	display:inline-block;
+>>>>>>> origin/d_dev
 }
 
 .shoeA-imgs{
@@ -207,12 +250,20 @@ nav{
 }
 
 .shoeB-text{
+<<<<<<< HEAD
 	text-align: right;
 	width:33%;
 	float:right;
 	text-align:center;
 	line-height:300px; /* should be the same height resolution of the image */
 	display:table-cell;
+=======
+	margin:0;
+	padding:0;
+	text-align: right;
+	width:33%;
+	display:inline-block;
+>>>>>>> origin/d_dev
 }
 
 .shoeB-imgs{
@@ -230,8 +281,11 @@ nav{
 .content-collection{
 	width:100%;
 	display:block;
+<<<<<<< HEAD
 	margin:0;
 	padding:0;
+=======
+>>>>>>> origin/d_dev
 }
 
 .collectionA-shoe{
@@ -242,9 +296,14 @@ nav{
 
 .collectionA-title{
 	width:49%;
+<<<<<<< HEAD
 	float:right;
 	display: table-cell; /* This centers it vertically */
 	line-height: 400px;
+=======
+	display: inline-block;
+	padding:2em 10em 0 10em;
+>>>>>>> origin/d_dev
 }
 
 .collection-imgs{
@@ -263,6 +322,7 @@ nav{
 .collectionB-title{
 	text-align: right;
 	width:49%;
+<<<<<<< HEAD
 	float:left;
 	display: table-cell; /* This centers it vertically */
 	line-height: 400px;
@@ -270,10 +330,13 @@ nav{
 
 .collectionC-shoe{
 	width:49%;
+=======
+>>>>>>> origin/d_dev
 	display: inline-block;
 	padding:2em 10em 0 10em;
 }
 
+<<<<<<< HEAD
 .collectionC-title{
 	width:49%;
 	float:right;
@@ -477,4 +540,8 @@ select option{
 	text-align:left;
 	display:inline-block;
 }
+=======
+
+
+>>>>>>> origin/d_dev
 
