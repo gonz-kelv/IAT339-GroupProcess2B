@@ -484,6 +484,44 @@ select option{
 	display:inline-block;
 }
 
+.input-text{
+	font-family: "Nexa Light";
+	color: #FFF;
+	background-color:#746A5F;
+	border: 1px solid #746A5F; 
+	padding: .5em;
+	-webkit-appearance: none;
+	box-shadow: none;
+	border-radius: none;
+}
+
+.input-textarea{
+	display: block;
+	font-family: "Nexa Light";
+  	color: #FFF;
+	background-color:#746A5F;
+	border: 1px solid #746A5F; 
+	padding: .5em;
+	-webkit-appearance: none;
+	box-shadow: none;
+	border-radius: none;
+}
+
+.button-submit{
+	float:left;
+	display: block;
+	padding: .75em;
+	margin-top:5%;
+	color: #FFF;
+	background-color: #324359;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+
+.button-submit:hover, .button-submit:focus{
+  background-color: #746A5F;
+}
 
 /*
 	The Detail Page
@@ -543,5 +581,19 @@ select option{
 }
 
 .detail-sizebox:hover, .detail-sizebox:focus {
+  background-color: #746A5F;
+}
+
+.button-add {
+  display: inline-block;
+  padding: .75em;
+  color: #FFF;
+  background-color: #324359;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-add:hover, .button-add:focus {
   background-color: #746A5F;
 }
