@@ -962,12 +962,60 @@ label{
 	width:100%;
 }
 
-.news-block{
+.news-fall{
 	float:left;
 	display:block;
 	padding:1em;
-	width:25%;
+	width:50%;
 }
+
+.news-spring{
+	float:left;
+	display:block;
+	padding:1em;
+	width:50%;
+}
+
+.news-summer{
+	float:left;
+	display:block;
+	padding:1em;
+	width:50%;
+}
+
+.news-promo{
+	float:left;
+	display:block;
+	padding:1em;
+	width:50%;
+}
+
+.news-h2{
+	float:left;
+	display:block;
+	width:100%;
+	text-align:center;
+}
+
+.news-h3{
+	float:left;
+	display:block;
+	width:48%;
+	text-align:center;
+}
+
+.news-p{
+	display:block;
+	width:48%;
+	text-align:left;
+}
+
+.news-img img{
+	display:block;
+	width:50%;
+	text-align:left;
+}
+
 
 @media(max-width: 1400px){
 	.news-block{
