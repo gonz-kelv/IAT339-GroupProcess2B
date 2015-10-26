@@ -347,7 +347,7 @@ img:hover{
 }
 
 /*
-	The Collection page
+	The Collection page and The Collection Detail page
 */
 
 .content-collection{
@@ -369,6 +369,11 @@ img:hover{
 	float:right;
 	padding:10em;
 	display:block;
+}
+
+.collectionA-title a{
+	color:inherit;
+	text-decoration: none;
 }
 
 .collection-imgs{
@@ -398,12 +403,33 @@ img:hover{
 	padding:10em;
 }
 
+.collection-detail{
+	padding:5% 5% 0 0;
+	width:49%;
+	float:right;
+	display:block;
+}
+
+@media(max-width:1400px){
+	.collection-detail{
+		width:40%;
+	}
+
+}
+
 @media(max-width:1300px){
 	.collectionA-title{
 		width:40%;
 	}
 	.collectionA-shoe{
 		width:59%;
+	}
+}
+
+@media(max-width:1200px){
+	.collection-detail{
+		padding-left:5%;
+		width:100%;
 	}
 }
 
@@ -429,6 +455,12 @@ img:hover{
 	}
 	.collectionB-shoe img{
 		width:100%;
+	}
+}
+
+@media(max-width:500px){
+	.collection-imgs img{
+		width:49%;
 	}
 }
 
@@ -507,12 +539,14 @@ img:hover{
 }
 
 select{
+	font-family: "Nexa Light";
 	padding:1em;
 	background-color: #746A5F;
 	color:#FFF;
 }
 
 select option{
+	font-family: "Nexa Light";
 	padding:1em;
 	
 }
@@ -640,6 +674,7 @@ select option{
 .contact-faq{
 	margin:0;
 	padding-left:5%;
+	padding-right:5%;
 	width:49%;
 	float:left;
 	display:block;
@@ -656,7 +691,7 @@ select option{
 	margin:0;
 	padding:0;
 	text-align:left;
-	width:50%;
+	width:100%;
 	display:inline-block;
 }
 
@@ -672,7 +707,7 @@ select option{
 	margin:0;
 	padding:0;
 	padding-top:2em;
-	width:50%;
+	width:100%;
 	text-align:left;
 	display:inline-block;
 }
@@ -693,10 +728,13 @@ select option{
 	-webkit-appearance: none;
 	box-shadow: none;
 	border-radius: none;
+	width:50%;
 }
 
 .input-textarea{
 	display: block;
+	width:50%;
+	height:10em;
 	font-family: "Nexa Light";
   	color: #FFF;
 	background-color:#746A5F;
@@ -711,7 +749,7 @@ select option{
 	float:left;
 	display: block;
 	padding: .75em;
-	margin-top:5%;
+	margin-top:2%;
 	color: #FFF;
 	background-color: #324359;
 	text-decoration: none;
@@ -906,7 +944,17 @@ select option{
 }
 
 @media(max-width:750px){
-
+	.detail-img{
+		width:100%;
+		float:left;
+		padding-left:20%;
+	}
+	.detail-info{
+		width:100%;
+	}
+	.grid-col-1of2, .grid-col-2of2{
+		width:100%;
+	}
 }
 
 /*
@@ -982,6 +1030,20 @@ label{
 	border-radius: none;
 }
 
+@media(max-width:1300px){
+
+}
+
+@media(max-width:1000px){
+	.checkout-left{
+		width:100%;
+	}
+	.checkout-right{
+		width:100%;
+		padding:5%;
+	}
+}
+
 /*
 	The News Page
 */
@@ -990,12 +1052,60 @@ label{
 	width:100%;
 }
 
-.news-block{
+.news-fall{
 	float:left;
 	display:block;
 	padding:1em;
-	width:25%;
+	width:50%;
 }
+
+.news-spring{
+	float:left;
+	display:block;
+	padding:1em;
+	width:50%;
+}
+
+.news-summer{
+	float:left;
+	display:block;
+	padding:1em;
+	width:50%;
+}
+
+.news-promo{
+	float:left;
+	display:block;
+	padding:1em;
+	width:50%;
+}
+
+.news-h2{
+	float:left;
+	display:block;
+	width:100%;
+	text-align:center;
+}
+
+.news-h3{
+	float:left;
+	display:block;
+	width:48%;
+	text-align:center;
+}
+
+.news-p{
+	display:block;
+	width:48%;
+	text-align:left;
+}
+
+.news-img img{
+	display:block;
+	width:50%;
+	text-align:left;
+}
+
 
 @media(max-width: 1400px){
 	.news-block{

@@ -1,4 +1,6 @@
 
+// Keep track of the name of the pressed
+var cname = "";
 
 $(document).ready(function(){
 	$('.img-other').click(function(){
@@ -38,7 +40,12 @@ $(document).ready(function(){
 		
 	});
 	
-
+	$('content-collection').click(function(){
+		cname = $(this).attr('src');
+		
+		
+	})
 	
+	console.log($(cname));
 	
 });
