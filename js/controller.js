@@ -1,7 +1,5 @@
 
-// Keep track of the name of the pressed
-var cname = '';
-
+// The detail Strings of each shoe
 var sDetail = '<h2>Strayhorn</h2><p>Like a brother to the Ellington, the Strayhorn delivers a seemingly basic form with quiet confidence in shape and function. With an air of charm, the Strayhorn offers a splash of sophistication without missing a beat.</p><p>The Strayhorn fits slightly narrow at the forefoot. Consider a half size larger than normal.</p><p>Supple tumbled leather upper with waxed cotton cord laces. Leather lined upper and footbed for breathability on a modern rubber cupsole for maximum comfort.</p>';
 
 var hDetail = '<h2>Hamilton</h2><p>An everyday gentleman’s staple, the Hamilton fuses a blucher moc upper with a sporty, low profile cupsole. With tonal stitching, metal eyelets and soft collar lining details, the Hamilton works effortlessly in any situation.</p><p>The Hamilton fits slightly narrow at the forefoot. Consider a half size larger than normal.</p><p>Supple tumbled leather upper with perforated suede accents and round cotton laces. Leather lined upper and footbed for breathability on a modern rubber cupsole for maximum comfort.</p>';
@@ -129,6 +127,22 @@ $(document).ready(function(){
 		
 	})
 	
+	$('h3').on('click', function(){
+		
+		var cItem = $(this).attr('clicked');
+		
+		if(cItem == null)
+		{
+			$(this).attr('clicked', 'clickedIt');
+			$(this).next('p').show();
+		}
+		else if(cItem == 'clickedIt')
+		{
+			$(this).next('p').hide();
+			$(this).attr('clicked', null);
+		}
+
+	})
 	
 	
 });
