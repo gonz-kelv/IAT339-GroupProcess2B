@@ -410,6 +410,14 @@ img:hover{
 	display:block;
 }
 
+.collection-title{
+	float:left;
+	display:block;
+	text-align: center;
+	padding-top:2em;
+	width:100%;
+}
+
 @media(max-width:1400px){
 	.collection-detail{
 		width:40%;
