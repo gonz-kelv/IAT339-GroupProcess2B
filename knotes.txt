@@ -2,11 +2,25 @@
 
 Responsivenesssss!
 Create a mobile menu
-Need to fix the Cart Page
-	the font of the total amount
-Have links for pictures to go to pages
 Alignment of collection page?
 
 Should we add a footer?
 
 Update the styleguide!
+
+				<div class="cart-amount">
+					<h3>Amount</h3>
+					<select>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select>
+					<p>Tax</p>
+					<p>TOTAL</p>
+				</div>
+				<div class="cart-price">
+					<h3>Price</h3>
+					<p>$119.99</p>
+					<p>$14.40</p>
+					<p>$134.39</p>
+					<a href="checkout.html" class="button-checkout">Checkout</a>

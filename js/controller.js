@@ -165,5 +165,23 @@ $(document).ready(function(){
 
 	})
 	
+	$('.menu-mobile').on('click', function(){
+		
+		var cItem = $(this).attr('clicked');
+		
+		if(cItem == null)
+		{
+			$(this).attr('clicked', 'clickedIt');
+			$(this).attr('src', 'img/icon/shoebox1A.jpg');
+			$('.menu-small').show();
+		}
+		else if(cItem == 'clickedIt')
+		{
+			$(this).attr('src', 'img/icon/shoebox1.jpg');
+			$(this).attr('clicked', null);
+			$('.menu-small').hide();
+		}
+	})
+	
 	
 });
