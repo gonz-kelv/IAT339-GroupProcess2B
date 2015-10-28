@@ -1,0 +1,12 @@
+// To Do for the website
+
+Responsivenesssss!
+Create a mobile menu
+Need to fix the Cart Page
+	the font of the total amount
+Have links for pictures to go to pages
+Alignment of collection page?
+
+Should we add a footer?
+
+Update the styleguide!
