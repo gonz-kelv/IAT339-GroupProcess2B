@@ -6,7 +6,6 @@ Need to fix the Cart Page
 	the font of the total amount
 Have links for pictures to go to pages
 Alignment of collection page?
-Have a Collection details page named cdetails.html
 
 Should we add a footer?
 

@@ -10,6 +10,7 @@ $(document).ready(function(){
 	$('.img-other').click(function(){
 		
 		// Ellington Detail Page
+		// Black Leather
 		if($(this).attr('src') == 'img/Eshoe4A.png'){
 			$('.img-highlight').attr('src', 'img/Eshoe4A.png' );
 		}
@@ -18,6 +19,26 @@ $(document).ready(function(){
 		}
 		else if($(this).attr('src') == 'img/Eshoe4C.png'){
 			$('.img-highlight').attr('src', 'img/Eshoe4C.png' );
+		}
+		// Brown Leather
+		if($(this).attr('src') == 'img/Eshoe1A.png'){
+			$('.img-highlight').attr('src', 'img/Eshoe1A.png' );
+		}
+		else if($(this).attr('src') == 'img/Eshoe1B.png'){
+			$('.img-highlight').attr('src', 'img/Eshoe1B.png' );
+		}
+		else if($(this).attr('src') == 'img/Eshoe1C.png'){
+			$('.img-highlight').attr('src', 'img/Eshoe1C.png' );
+		}
+		// Black Suede
+		if($(this).attr('src') == 'img/Eshoe3A.png'){
+			$('.img-highlight').attr('src', 'img/Eshoe3A.png' );
+		}
+		else if($(this).attr('src') == 'img/Eshoe3B.png'){
+			$('.img-highlight').attr('src', 'img/Eshoe3B.png' );
+		}
+		else if($(this).attr('src') == 'img/Eshoe3C.png'){
+			$('.img-highlight').attr('src', 'img/Eshoe3C.png' );
 		}
 		
 		// Strayhorn Detail Page

@@ -4,9 +4,9 @@
 	the border-box model (not the content-box model)
 */
 @font-face{
-	font-family: Nexa-Light;
+	font-family: "Nexa-Light";
 	src: url("font/nexa/Nexa-Light.otf")format("opentype");
-	font-family: Nexa-Bold;
+	font-family: "Nexa-Bold";
 	src: url("font/nexa/Nexa-Bold.otf")format("opentype");
 }
 
@@ -53,7 +53,7 @@
 	#D9CBBF
 */
 body{
-	  font-family:Nexa;	
+	  font-family:"Nexa-Light";	
 	  /* old  background-color: #D9CBBF; */
 	  background-color: #FFF;
 	  margin:0;
@@ -94,7 +94,7 @@ nav{
 .menu-cart{	
 	background-color:#324359;
 	color: #FFF;
-	font-family: Nexa-Bold;
+	font-family: "Nexa-Bold";
 	float:right;
 	display:block;
 	width:100%;
@@ -115,7 +115,7 @@ nav{
 .menu-klide{
 	background-color:#324359;
 	color: #FFF;
-	font-family: Nexa-Bold;
+	font-family: "Nexa-Bold";
 	width: 50%;
 	display: block;
 	float: left;
