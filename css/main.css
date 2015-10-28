@@ -4,7 +4,7 @@
 	the border-box model (not the content-box model)
 */
 @font-face{
-	font-family: "Nexa";
+	font-family: "Nexa-Light";
 	src: url("font/nexa/Nexa-Light.otf")format("opentype");
 	font-family: "Nexa-Bold";
 	src: url("font/nexa/Nexa-Bold.otf")format("opentype");
@@ -53,7 +53,7 @@
 	#D9CBBF
 */
 body{
-	  font-family:"Nexa";	
+	  font-family:"Nexa-Light";	
 	  /* old  background-color: #D9CBBF; */
 	  background-color: #FFF;
 	  margin:0;
@@ -567,14 +567,14 @@ img:hover{
 }
 
 select{
-	font-family: "Nexa";
+	font-family: "Nexa-Light";
 	padding:1em;
 	background-color: #746A5F;
 	color:#FFF;
 }
 
 select option{
-	font-family: "Nexa";
+	font-family: "Nexa-Light";
 	padding:1em;
 	
 }
@@ -809,7 +809,7 @@ select option{
 }
 
 .input-text{
-	font-family: "Nexa";
+	font-family: "Nexa-Light";
 	color: #FFF;
 	background-color:#746A5F;
 	border: 1px solid #746A5F; 
@@ -824,7 +824,7 @@ select option{
 	display: block;
 	width:50%;
 	height:10em;
-	font-family: "Nexa";
+	font-family: "Nexa-Light";
   	color: #FFF;
 	background-color:#746A5F;
 	border: 1px solid #746A5F; 
