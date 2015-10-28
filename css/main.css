@@ -4,10 +4,13 @@
 	the border-box model (not the content-box model)
 */
 @font-face{
-	font-family: "Nexa-Light";
-	src: url("font/nexa/Nexa-Light.otf")format("opentype");
 	font-family: "Nexa-Bold";
 	src: url("font/nexa/Nexa-Bold.otf")format("opentype");
+}
+
+@font-face{
+	font-family: "Nexa-Light";
+	src: url("font/nexa/Nexa-Light.otf")format("opentype");
 }
 
 *, *:after, *:before {
