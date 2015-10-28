@@ -574,11 +574,13 @@ select{
 	padding:1em;
 	background-color: #746A5F;
 	color:#FFF;
+	letter-spacing: .2em;
 }
 
 select option{
 	font-family: "Nexa-Light";
 	padding:1em;
+	letter-spacing: .2em;
 	
 }
 
@@ -811,6 +813,10 @@ select option{
 	display:inline-block;
 }
 
+.right-bottom img{
+	width:100%;
+}
+
 .input-text{
 	font-family: "Nexa-Light";
 	color: #FFF;
@@ -821,6 +827,7 @@ select option{
 	box-shadow: none;
 	border-radius: none;
 	width:50%;
+	letter-spacing: .2em;
 }
 
 .input-textarea{
@@ -835,6 +842,7 @@ select option{
 	-webkit-appearance: none;
 	box-shadow: none;
 	border-radius: none;
+	letter-spacing: .2em;
 }
 
 .button-submit{
@@ -1117,6 +1125,7 @@ label{
 	-webkit-appearance: none;
 	box-shadow: none;
 	border-radius: none;
+	letter-spacing: .2em;
 }
 
 .input-text2{
@@ -1129,6 +1138,7 @@ label{
 	-webkit-appearance: none;
 	box-shadow: none;
 	border-radius: none;
+	letter-spacing: .2em;
 }
 
 @media(max-width:1300px){
