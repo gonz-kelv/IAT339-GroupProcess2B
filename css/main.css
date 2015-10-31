@@ -5,12 +5,18 @@
 */
 @font-face{
 	font-family: "Nexa-Bold";
-	src: url("font/nexa/Nexa-Bold.otf")format("opentype");
+	src: url("font/nexa/Nexa-Bold.eot");
+	src: url('font/nexa/Nexa-Bold.woff') format('woff'), 
+			url('font/nexa/Nexa-Bold.ttf') format('truetype'), 
+			url('font/nexa/Nexa-Bold.svg') format('svg');
 }
 
 @font-face{
 	font-family: "Nexa-Light";
-	src: url("font/nexa/Nexa-Light.otf")format("opentype");
+	src: url('font/nexa/Nexa-Light.eot');
+	src: url('font/nexa/Nexa-Light.woff') format('woff'), 
+			url('font/nexa/Nexa-Light.ttf') format('truetype'), 
+			url('font/nexa/Nexa-Light.svg') format('svg');
 }
 
 *, *:after, *:before {
@@ -66,7 +72,7 @@ body{
 
 nav{
 	background-color:#324359;
-	line-height: 4em;
+	line-height: 64px;
 	margin:0;
 	padding:0;
 }
@@ -195,6 +201,10 @@ nav{
 
 img:hover{
 	opacity:.5;
+}
+
+a img {
+ border:none;
 }
 
 /*
