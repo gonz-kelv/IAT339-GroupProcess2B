@@ -23,7 +23,16 @@
 			<div class="logo-klide">
 				<a href="index.html">KLIDE</a>
 			</div>
-			<div class="small-menu-klide">&nbsp;</div>
+			<div class="small-menu-klide"><img class="menu-mobile" src="img/icon/shoebox1.jpg" alt="Icon for mobile menu"></div>
+			<div class="menu-small">
+				<ul>
+					<li><a href="shop.html">SHOP</a></li>
+					<li><a href="collection.html">COLLECTION</a></li>
+					<li><a href="news.html">NEWS</a>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
 			<div class="menu-klide">
 			<ul>
 				<li><a href="shop.html">SHOP</a></li>
@@ -40,16 +49,20 @@
 				<h1>Klide Ellington</h1>
 			</div>
 			<div class="detail-img">
-				<img class="img-highlight" src="img/Eshoe4A.png">
+				<img class="img-highlight" src="img/Eshoe4A.png" alt="Black ellington detailed">
 				<div class="detail-img-bottom">
-					<img class="img-other" src="img/Eshoe4A.png">
-					<img class="img-other" src="img/Eshoe4B.png">
-					<img class="img-other" src="img/Eshoe4C.png">
+					<img class="img-other" id='img1' src="img/Eshoe4A.png" alt="Black ellington detailed">
+					<img class="img-other" id='img2' src="img/Eshoe4B.png" alt="Black ellington pair">
+					<img class="img-other" id='img3' src="img/Eshoe4C.png" alt="Black ellington sole">
 				</div>
 			</div>
 			<div class="detail-info">
 				<h3>Colorway</h3>
-				
+					<select>
+						<option value="Black Leather" selected>Black Leather</option>
+						<option value="Brown Leather">Brown Leather</option>
+						<option value="Black Suede">Black Suede</option>
+					</select>
 				<h3>Sizing:</h3>
 					<a href="#" class="detail-sizebox">8</a>
 					<a href="#" class="detail-sizebox">9</a>
@@ -70,9 +83,9 @@
 					<h2>Similar</h2>
 				</div>
 				<div class="similar-img">
-					<img src="img/Eshoe4A.png">
-					<img src="img/Eshoe1A.png">
-					<img src="img/Eshoe3A.png">
+					<img src="img/Eshoe4A.png" alt="Black leather ellington shoe">
+					<img src="img/Eshoe1A.png" alt="Brown leather ellington shoe">
+					<img src="img/Eshoe3A.png" alt="Black ellington shoe">
 				</div>
 			</div>
 			<div class="detail-review">
@@ -122,9 +135,15 @@
 			
 		
 		<div class="footer">
+			<h1>D&amp;K Production</h1>
+			<p>&#9400; Copyright 2015</p>
 		</div>
 		
-		<!-- Scripts -->
+		<!-- Scripts 
+			respond.js is to fix media queries for ie8
+		-->
+		<script src="js/respond.js"></script>
+		<script src="js/jquery.js"></script>
 		<script src="js/zepto.js"></script>
 		<script src="js/controller.js"></script>
 		

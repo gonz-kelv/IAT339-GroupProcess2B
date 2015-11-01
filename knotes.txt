@@ -1,0 +1,7 @@
+// To Do for the website
+
+Responsivenesssss!
+fix <!doctype html> on pages
+Create a mobile menu - change to old Jquery instead of Zepto
+Alignment of collection page?
+add css animation
