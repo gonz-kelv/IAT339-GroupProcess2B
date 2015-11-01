@@ -72,49 +72,49 @@ $(document).ready(function(){
 		name1 = $(this).attr('src');
 		name2 = $('.collection-feature').attr('src');
 		
-		if(name2 == 'img/Fall Collection/Fall1A.png'){
-			name2 = 'img/Fall Collection/Fall1.png';
+		if(name2 == 'img/Fall%20Collection/Fall1A.png'){
+			name2 = 'img/Fall%20Collection/Fall1.png';
 		}
-		else if(name2 == 'img/Fall Collection/Fall2A.png'){
-			name2 = 'img/Fall Collection/Fall2.png';
+		else if(name2 == 'img/Fall%20Collection/Fall2A.png'){
+			name2 = 'img/Fall%20Collection/Fall2.png';
 		}
-		else if(name2 == 'img/Fall Collection/Fall3A.png'){
-			name2 = 'img/Fall Collection/Fall3.png';
+		else if(name2 == 'img/Fall%20Collection/Fall3A.png'){
+			name2 = 'img/Fall%20Collection/Fall3.png';
 		}
-		else if(name2 == 'img/Fall Collection/Fall4A.png'){
-			name2 = 'img/Fall Collection/Fall4.png';
+		else if(name2 == 'img/Fall%20Collection/Fall4A.png'){
+			name2 = 'img/Fall%20Collection/Fall4.png';
 		}
-		else if(name2 == 'img/Fall Collection/Fall5A.png'){
-			name2 = 'img/Fall Collection/Fall5.png';
+		else if(name2 == 'img/Fall%20Collection/Fall5A.png'){
+			name2 = 'img/Fall%20Collection/Fall5.png';
 		}
 		
 		
-		if(name1 == 'img/Fall Collection/Fall1.png'){
-			name1 = 'img/Fall Collection/Fall1A.png';
+		if(name1 == 'img/Fall%20Collection/Fall1.png'){
+			name1 = 'img/Fall%20Collection/Fall1A.png';
 		}
-		else if(name1 == 'img/Fall Collection/Fall2.png'){
-			name1 = 'img/Fall Collection/Fall2A.png';
+		else if(name1 == 'img/Fall%20Collection/Fall2.png'){
+			name1 = 'img/Fall%20Collection/Fall2A.png';
 		}
-		else if(name1 == 'img/Fall Collection/Fall3.png'){
-			name1 = 'img/Fall Collection/Fall3A.png';
+		else if(name1 == 'img/Fall%20Collection/Fall3.png'){
+			name1 = 'img/Fall%20Collection/Fall3A.png';
 		}
-		else if(name1 == 'img/Fall Collection/Fall4.png'){
-			name1 = 'img/Fall Collection/Fall4A.png';
+		else if(name1 == 'img/Fall%20Collection/Fall4.png'){
+			name1 = 'img/Fall%20Collection/Fall4A.png';
 		}
-		else if(name1 == 'img/Fall Collection/Fall5.png'){
-			name1 = 'img/Fall Collection/Fall5A.png';
+		else if(name1 == 'img/Fall%20Collection/Fall5.png'){
+			name1 = 'img/Fall%20Collection/Fall5A.png';
 		}
 		
 		// Change the information of the collection
-		if(name1 == 'img/Fall Collection/Fall1A.png'){
+		if(name1 == 'img/Falll%20ollection/Fall1A.png'){
 			$('.collection-detail').html(hDetail);
 		}
-		else if(name1 == 'img/Fall Collection/Fall3A.png' 
-			|| name1 == 'img/Fall Collection/Fall4A.png'){
+		else if(name1 == 'img/Falll%20ollection/Fall3A.png' 
+			|| name1 == 'img/Falll%20ollection/Fall4A.png'){
 				$('.collection-detail').html(sDetail);	
 		}
-		else if(name1 == 'img/Fall Collection/Fall2A.png' 
-			|| name1 == 'img/Fall Collection/Fall5A.png'){
+		else if(name1 == 'img/Falll%20ollection/Fall2A.png' 
+			|| name1 == 'img/Fall%20Collection/Fall5A.png'){
 				$('.collection-detail').html(eDetail);
 		}
 		

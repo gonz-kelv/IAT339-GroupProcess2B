@@ -5,18 +5,24 @@
 */
 @font-face{
 	font-family: "Nexa-Bold";
-	src: url("font/nexa/Nexa-Bold.eot");
-	src: url('font/nexa/Nexa-Bold.woff') format('woff'), 
+	src: url('font/nexa/Nexa-Bold.eot');
+	src: url('font/nexa/Nexa-Bold.eot?#iefix') format('embedded-opentype'),
+			url('font/nexa/Nexa-Bold.woff') format('woff'), 
 			url('font/nexa/Nexa-Bold.ttf') format('truetype'), 
 			url('font/nexa/Nexa-Bold.svg') format('svg');
+	font-weight: normal;
+    font-style: normal;
 }
 
 @font-face{
 	font-family: "Nexa-Light";
 	src: url('font/nexa/Nexa-Light.eot');
-	src: url('font/nexa/Nexa-Light.woff') format('woff'), 
+	src: url('font/nexa/Nexa-Light.eot?#iefix') format('embedded-opentype'),
+			url('font/nexa/Nexa-Light.woff') format('woff'), 
 			url('font/nexa/Nexa-Light.ttf') format('truetype'), 
 			url('font/nexa/Nexa-Light.svg') format('svg');
+	font-weight: normal;
+    font-style: normal;
 }
 
 *, *:after, *:before {
@@ -62,7 +68,7 @@
 	#D9CBBF
 */
 body{
-	  font-family:"Nexa-Light";	
+	  font-family:"Nexa-Light", Fallback, sans-serif;	
 	  /* old  background-color: #D9CBBF; */
 	  background-color: #FFF;
 	  margin:0;
@@ -97,6 +103,7 @@ nav{
 	display: block;
 	float:left;
 	text-align: center;
+	line-height: 64px;
 }
 
 .logo-klide a{
@@ -134,6 +141,7 @@ nav{
 	display: block;
 	float: left;
 	letter-spacing: .08em;
+	line-height: 64px;
 }
 
 .menu-klide ul{
